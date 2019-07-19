@@ -1,0 +1,14 @@
+{
+  "name": "shahinbayat.ir",
+  "version": "1.0.0",
+  "description": "shahinbayat website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "shahin bayat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

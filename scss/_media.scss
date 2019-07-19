@@ -1,0 +1,86 @@
+// Tablets and Smaller
+@media (max-width: 900px) {
+  #main-header {
+    height: 80vh;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .fa-wordpress,
+  .fa-angular {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  #services {
+    .items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .fa-css3-alt {
+    display: none;
+  }
+}
+
+// Smartphones
+@media (max-width: 500px) {
+  #main-header {
+    #main-nav {
+      .nav-bar {
+        justify-content: center;
+        ul {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #services {
+    .items {
+      display: block;
+    }
+    .logos {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  #main-header {
+    height: 100vh;
+    #main-nav {
+      .nav-bar {
+        ul {
+          width: 100%;
+          display: block;
+          li {
+            width: 100%;
+            // border-bottom: 1px solid $dark-color;
+          }
+        }
+      }
+    }
+    #showcase-content {
+      height: 65%;
+    }
+  }
+}
+
+@media (max-height: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+  #main-header {
+    height: 100vh;
+  }
+}
+@media (max-height: 320px) {
+}
